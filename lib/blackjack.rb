@@ -12,6 +12,8 @@ def display_card_total()
 end
 
 def prompt_user
+  puts "What is your name?"
+  
   # code #prompt_user here
 end
 
