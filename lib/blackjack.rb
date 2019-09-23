@@ -1,13 +1,15 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
-  # code #deal_card here
+def deal_card(1, 11)
+  1 + rand(11-1)
+  #2.times{ r = rand(11); 
+  #puts "#{ r } " }
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total()
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
